@@ -8,10 +8,35 @@ To write a program to predict the type of species of the Iris flower using the S
 
 ## Algorithm
 ```
-1.Import Necessary Libraries and Load Data 
-2.Split Dataset into Training and Testing Sets
-3.Train the Model Using Stochastic Gradient Descent (SGD)
-4.Make Predictions and Evaluate Accuracy
+step 1.Start
+
+step 2.Import Libraries: Import the necessary libraries - pandas, numpy, and matplotlib.pyplot.
+
+step 3.Load Dataset: Load the dataset using pd.read_csv.
+
+step 4.Remove irrelevant columns (sl_no, salary).
+
+step 5.Convert categorical variables to numerical using cat.codes.
+
+step 6.Separate features (X) and target variable (Y).
+
+step 7.Define Sigmoid Function: Define the sigmoid function.
+
+step 8.Define Loss Function: Define the loss function for logistic regression.
+
+step 9.Define Gradient Descent Function: Implement the gradient descent algorithm to optimize the parameters.
+
+step 10.Training Model: Initialize theta with random values, then perform gradient descent to minimize the loss and obtain the optimal parameters.
+
+step 11.Define Prediction Function: Implement a function to predict the output based on the learned parameters.
+
+step 12.Evaluate Accuracy: Calculate the accuracy of the model on the training data.
+
+step 13.Predict placement status for a new student with given feature values (xnew).
+
+step 14.Print Results: Print the predictions and the actual values (Y) for comparison.
+
+step 15.Stop.
 ```
 ## Program:
 
